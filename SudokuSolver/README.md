@@ -1,6 +1,7 @@
 The projects in this file are solutions I submitted on Leetcode for question 37: [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/description/).
 # RecSolution.py
 [My submission](https://leetcode.com/problems/sudoku-solver/submissions/1331048009)
+
 As the name of the file suggests, I first made a recursive solution. My solution follows a depth first search approach where it considers one tile in the sudoku for
 each recursive call. I felt a depth first search approach was most appropriate in this instance to minimize the memory used during computation. If needed, this
 solution could be adapted to find all possible solutions while still using a depth first search by creating a List to hold completed sudoku boards and creating a
@@ -42,6 +43,7 @@ Please note that this proposed code has not been tested as of now.
 
 # BottomUpSolution.py
 [My submission](https://leetcode.com/problems/sudoku-solver/submissions/1334586129)
+
 As a personal challenge and attempt to improve the runtime of my recursive solution, I attempted to create a solution that would
 make no recursive calls. I thought that by performing all calculations in the same function call instead of creating a potentially
 massive call tree, the system would be able to perform the calculations faster.
